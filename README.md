@@ -16,8 +16,8 @@ Each `MASTG-TEST-XXXX` document follows the same five-part structure:
 
 | Folder | Language |
 |---|---|
-| [`MASTGv2 Notes (id)/`](./MASTGv2%20Notes%20(id)) | Indonesian (original) |
-| [`MASTGv2 Notes (en)/`](./MASTGv2%20Notes%20(en)) | English (translated) |
+| [`MASTGv2 Notes (id)/`](./MASTGv2%20Notes%20(id)) | Indonesian |
+| [`MASTGv2 Notes (en)/`](./MASTGv2%20Notes%20(en)) | English |
 
 | MASVS Category | # Test Cases | Covers |
 |---|---|---|
@@ -30,15 +30,11 @@ Each `MASTG-TEST-XXXX` document follows the same five-part structure:
 | `MASVS-PRIVACY` | 7 | Permissions, PII in traffic, sensitive SDK usage |
 | `MASVS-AUTH` | 5 | Biometric authentication edge cases |
 
-Each test document's filename and content map directly to its ID on [mas.owasp.org](https://mas.owasp.org/MASTG/tests/android/).
-
-## Who this is for
-
-Mobile app pentesters, AppSec engineers, and anyone studying for MASTG-based assessments who wants a deeper, more practical breakdown of each test than the official guide alone provides — including alternative tooling, common false positive/negative traps, and cross-references to real-world CVEs where relevant.
+Each test document's filename and content map directly to its ID on [OWASP MASTG](https://mas.owasp.org/).
 
 ## ⚠️ Disclaimer — Please Read Before Relying on These Notes
 
-These notes were drafted with the help of an AI assistant (Claude), using the official OWASP MASTG as the primary source and supplemented with other public references (Android documentation, NIST/academic papers, vendor advisories, CVE databases, etc.).
+These notes were drafted with the help of an AI assistant, using the official OWASP MASTG as the primary source and supplemented with other public references (Android documentation, NIST/academic papers, vendor advisories, CVE databases, etc.).
 
 This means:
 
@@ -46,11 +42,7 @@ This means:
 - **They should not be treated as an authoritative or final reference.** Always cross-check against the [official OWASP MASTG](https://mas.owasp.org/MASTG/) and other primary sources before applying these notes in a real assessment, report, or production decision.
 - **Testing methodologies and tool outputs described here are illustrative, not guaranteed.** Behavior can vary across Android versions, app frameworks, and tool versions.
 
-If you spot an error, an outdated reference, a better testing approach, or anything that doesn't hold up under scrutiny — **contributions and corrections are very welcome**. Please open an issue or a pull request describing:
-
-- Which document and section is affected
-- What's wrong or could be improved
-- A source/reference backing the correction, if available
+If you spot an error, an outdated reference, a better testing approach, or anything that doesn't hold up under scrutiny — **contributions and corrections are very welcome**. Please open an issue or a pull request...
 
 This repository is meant to improve over time through real-world feedback, not stand as a finished, authoritative product.
 
